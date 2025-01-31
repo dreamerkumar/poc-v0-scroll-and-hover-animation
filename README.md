@@ -1,3 +1,11 @@
+# poc-v0-scroll-and-hover-animation
+
+Description: poc project to animate cards upon hover
+
+View Live at https://poc-v0-scroll-and-hover-animation-chi.vercel.app/
+
+## Installation Notes
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
