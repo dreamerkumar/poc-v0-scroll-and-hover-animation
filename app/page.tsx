@@ -1,12 +1,16 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import AppIcons from "@/components/app-icons";
 import { Button } from "@/components/ui/button";
 import { Moon, Sun } from "lucide-react";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(true);
+
+  useEffect(() => {
+    document.documentElement.classList.add("dark");
+  }, []);
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
